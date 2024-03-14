@@ -7,62 +7,60 @@ assignees: ''
 
 ---
 
-### US
-As a user, I want to make an action and .... 
+## US
 
-### Scenarios
-**Scenario 1: active user list initial**
-```
-Given... im a user of...,
-When...I do an action,
-Then... would happen something,
-And... also happen another thing
-```
+## Description
 
-**Scenario 2: list with more than one user**
+## Additional context
+Scenario 1:
+
 ```
-Given... im a user of...,
-When...I do an action,
-Then... would happen something
+Given... asd
+When... iasd
+Then... asd
+And... asd
 ```
 
-**Scenario 3: error**
-```
-Given... im a user of...,
-When...I do an action,
-Then... would happen something
-```
-### Acceptance criteria
+## Design
+ 
 
-- [ ] 
+## Acceptance criteria
 
-### Technical task
+- [ ] COMPLETE
 
-- [ ] 
+## Technical tasks
 
-------
-### Design
+- [ ] COMPLETE
 
-* Link to mockups or architechture desings 
-
-
-------
 ## Definition of Ready:
-
 - [ ] Acceptance criteria have been defined for the story.
 - [ ] Acceptance criteria are clear and understood by the whole team.
 - [ ] Story has been estimated and is within a certain size limit.
-- [ ] Story is clear and understood by the whole team.
+- [ ] Story is clear and understood by the entire team.
 - [ ] UI designer has created mockups or fully designed screens for the story.
 - [ ] All dependencies, internal or external, have been resolved.
 
-
-------
 ## Definition of Done:
-
 - [ ] All technical tasks are done.
 - [ ] All acceptance criteria are met.
 - [ ] Changes have been reviewed.
 - [ ] CI tests have run successfully.
 - [ ] Documentation has been updated.
 - [ ] Release Notes have been updated.
+- [ ] MYMOID Suit testing 
+	- Accounts
+		- [ ] Organization list
+		- [ ] Organization detail (Owner / guest)
+	- Developers
+		- [ ] App detail 
+	- Collection
+		- [ ] Campaign list
+		- [ ] Create a campaign with sms and open the payment form on mobile
+		- [ ] Payment order list 
+		- [ ] Create an individual payment order and open the payment form web (using collection app)
+	- Payment Gateway
+		- [ ] Payment order list 
+		- [ ] Payment order list filtered by status 
+		- [ ] Payment order detail (Paid, refunded or partially refunded --> Someone with transactions)
+		- [ ] Transaction list 
+		- [ ]  Transaction list filtered by payment point
