@@ -1,12 +1,3 @@
----
-name: User story
-about: 'Template used to describe user stories'
-title: ASAUIW to be able to make an action!
-labels: feature
-assignees: ''
-
----
-
 ## US
 
 ## Description
